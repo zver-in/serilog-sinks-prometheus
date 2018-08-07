@@ -1,7 +1,7 @@
 # serilog-sinks-prometheus
 A Serilog sink that writes log events to the Prometheus.
 
-#Usage
+# Usage
 
 ```
 Log.Logger = new LoggerConfiguration()
