@@ -1,4 +1,4 @@
-# serilog-sinks-prometheus
+# Serilog.Sinks.Prometheus
 A Serilog sink that writes log events to the Prometheus.
 
 # Usage
