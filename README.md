@@ -9,4 +9,4 @@ Log.Logger = new LoggerConfiguration()
 				.CreateLogger();
 ```
 
-This will create prometheus counters with name "events_{Event.LogLevel}" and description "Total count events of level {Event.LogLevel}"
+This will create prometheus counters with name "events_{Event.LogLevel}" and description "Total count events of level {Event.LogLevel}" containing total count of appropriate events.
