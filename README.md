@@ -3,7 +3,7 @@ A Serilog sink that writes log events to the Prometheus.
 
 # Usage
 
-```
+```c#
 Log.Logger = new LoggerConfiguration()
 				.WriteTo.Prometheus("events_{0}", "Total count events of level {0}")
 				.CreateLogger();
